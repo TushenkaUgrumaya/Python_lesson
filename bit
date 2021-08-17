@@ -1,0 +1,4 @@
+bit = int(input('Введите количество бит '))
+byte = bit // 8
+kilobytes = bit // 1024
+print (bit, "бит - это ", byte, "байт и", kilobytes, "килобайт")
